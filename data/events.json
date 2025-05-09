@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Jazz Night",
+        "location": "İstanbul",
+        "description": "Join us for an electrifying evening of jazz at the heart of İstanbul.",
+        "dates": ["2025-03-10"],
+        "lat": 41.0082,
+        "lon": 28.9784,
+        "totalSpots": 100,
+        "bookedSpots": 20
+    },
+    {
+        "name": "Koro Konseri",
+        "location": "Ankara",
+        "description": "Experience our choir's harmonious melodies in a grand concert in Ankara.",
+        "dates": ["2025-04-22"],
+        "lat": 39.9334,
+        "lon": 32.8597,
+        "totalSpots": 150,
+        "bookedSpots": 50
+    },
+    {
+        "name": "Atölye Çalışması",
+        "location": "İzmir",
+        "description": "Learn jazz techniques in our interactive workshop in İzmir.",
+        "dates": ["2025-05-05", "2025-05-12", "2025-05-19"],
+        "lat": 38.4237,
+        "lon": 27.1428,
+        "totalSpots": 50,
+        "bookedSpots": {"2025-05-05": 10, "2025-05-12": 5, "2025-05-19": 0}
+    }
+]

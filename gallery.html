@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Jazz Choir</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Jazz Korosu Logosu" class="logo">
+                <h1>Tantanacılar Jazz</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME PAGE</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="gallery.html" class="active">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="content">
+                <h2>Our Moments</h2>
+                <div class="filter-buttons">
+                    <button data-filter="all">All</button>
+                    <button data-filter="Jazz Night">Jazz Night</button>
+                    <button data-filter="Koro Konseri">Koro Konseri</button>
+                    <button data-filter="Atölye Çalışması">Atölye Çalışması</button>
+                </div>
+                <div class="gallery">
+                    <a href="images/jazz1.png" data-lightbox="gallery" data-title="Jazz Night 1" data-category="Jazz Night"><img src="images/jazz1.png" alt="Jazz Night 1"></a>
+                    <a href="images/jazz2.png" data-lightbox="gallery" data-title="Jazz Night 2" data-category="Jazz Night"><img src="images/jazz2.png" alt="Jazz Night 2"></a>
+                    <a href="images/jazz3.png" data-lightbox="gallery" data-title="Koro Konseri 1" data-category="Koro Konseri"><img src="images/jazz3.png" alt="Koro Konseri 1"></a>
+                    <a href="images/jazz4.png" data-lightbox="gallery" data-title="Koro Konseri 2" data-category="Koro Konseri"><img src="images/jazz4.png" alt="Koro Konseri 2"></a>
+                    <a href="images/jazz5.png" data-lightbox="gallery" data-title="Atölye Çalışması 1" data-category="Atölye Çalışması"><img src="images/jazz5.png" alt="Atölye Çalışması 1"></a>
+                    <a href="images/jazz6.png" data-lightbox="gallery" data-title="Atölye Çalışması 2" data-category="Atölye Çalışması"><img src="images/jazz6.png" alt="Atölye Çalışması 2"></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Tantanacılar Jazz - All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
